@@ -1,0 +1,1223 @@
+*{
+
+    /* width: 100%; */
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+
+/* PARENT */
+
+.parent{
+    background-color: blue;
+    /* width: 1280px; */
+    width: 100%;
+    height: 50px;
+
+
+
+}
+
+.facebook{
+
+    /* background-color: teal; */
+    width: 7px;
+    height: 7px;
+    padding: 5px 10px 13px 20px;
+position:absolute;
+left: 50px;
+top: 7px;
+}
+b{
+    color: white;
+}
+
+.twitter{
+   /* background-color: tomato; */
+    width: 7px;
+    height: 7px;
+    padding: 5px 10px 13px 8px;
+    /* margin: 10px 10px 10px 50px; */
+    margin: 15px;
+position:absolute;
+/* left: 70px; */
+left: 100px;
+top: 0%; 
+}
+#tweet{
+    position: absolute;
+    left: 5px;
+    top: 0px;
+    
+}
+.instragram{
+
+    width: 7px;
+    height: 7px;
+    padding: 5px 15px 13px 8px;
+position:absolute;
+left: 160px;
+top: 8.5px; 
+/* background-color: yellow; */
+
+}
+#ins{
+    position: absolute;
+    left: 10px;
+}
+
+.youtube{
+
+
+        width: 7px;
+        height: 7px;
+        padding: 5px 10px 13px 15px;
+        margin:2px ;
+    position:absolute;
+    left: 208px;
+    top: 8px; 
+    /* background-color: turquoise; */
+    
+    }
+    #you{
+        position: absolute;
+        left: 10px;
+    }
+
+.whatsap{
+ 
+    width: 7px;
+    height: 2px;
+    padding: 5px 10px 13px 15px;
+position:absolute;
+left: 260px;
+top: 13px; 
+
+}
+
+#wat{
+    position: absolute;
+    left: 5px;
+     top: 1px;
+     
+}
+.p{
+  
+text-align: center;
+color: white;
+padding: 15px;
+
+
+}
+
+
+.text1{
+    width: 65px;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+left: 975px;
+top: 10px;
+
+ padding: 0% 0.5% 2% 0.5%;
+}
+.first{
+
+    font-size: small;
+color: green;
+position: absolute;
+bottom: 30%;
+    text-align: center;
+}
+
+.text2{
+    width: 70px;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+left: 1060px;
+top: 10px;
+ /* padding: 0px 0px 25px 10px;  */
+ padding: 0% 0.5% 2% 0.5%;
+
+}
+.second{
+
+    font-size: small;
+color: green;
+position: absolute;
+bottom: 30%;
+    
+}
+
+.text3{
+    width: 75px;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+left: 1150px;
+top: 10px;
+ padding: 0% 0.5% 2% 0.5%; 
+      
+}
+.third{
+
+    font-size: small;
+color: green;
+position: absolute;
+bottom: 30%; 
+
+}
+
+
+/* PARENT1 */
+.parent1{
+    background-color:white;
+    /* width: 1280px; */
+     height: 80px;
+   width: 100%;
+    position: absolute;
+}
+.img{
+    position:absolute;
+    left: 50px;
+}
+
+
+/* NAV */
+.nav{
+    position: absolute;
+    left: 500px;
+    top: 20px;
+}
+
+
+
+.li{
+
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid ;
+    border-width: 8px;
+  border-radius: 25px;
+    border-color: white;
+   padding: 8px;
+
+    }
+    .li:hover{
+        background-color: blue;
+    }
+ ul li a{
+     text-decoration: none;
+     color: black;
+ }
+ #uu{
+     background-color: blue;
+ }
+ .about{
+     list-style-type: none;
+     background-color: white;
+     /* position: fixed; */
+
+     position: absolute;
+     left: 55px;
+     /* top: 55px; */
+width: 200px;
+display: none;
+padding: 10px;
+margin: 10px;
+/* text-align: left; */
+list-style-type: none;
+line-height: 2;
+
+ }
+ .about li:hover{
+     background-color: blue;
+ }
+ #ab:hover .about{
+     display: block;
+ }
+ /* .drpdown{
+     list-style-type: none;
+ } */
+ .saylaniservice{
+
+    list-style-type: none;
+    background-color: white;
+    position: absolute;
+    left: 140px;
+    /* top: 55px; */
+width: 200px;
+display: none;
+padding: 10px;
+margin: 10px;
+text-align: left;
+list-style-type: none;
+line-height: 2;
+ }
+ .saylaniservice li:hover{
+    background-color: blue;
+}
+
+#ss:hover .saylaniservice{
+    display: block;
+}
+
+.futurepro{
+    list-style-type: none;
+    background-color: white;
+    position: absolute;
+    left: 290px;
+    /* top: 55px; */
+width: 130px;
+display: none;
+padding: 10px;
+margin: 10px;
+text-align: left;
+list-style-type: none; 
+line-height: 2;
+}
+.futurepro li:hover{
+    background-color: blue;
+}
+
+#fp:hover .futurepro{
+    display: block;
+}
+
+.don{
+
+    list-style-type: none;
+    background-color: white;
+    position: absolute;
+    left: 550px;
+    /* top: 55px; */
+width: 130px;
+display: none;
+padding: 10px;
+margin: 10px;
+text-align: left;
+list-style-type: none; 
+line-height: 2;
+}
+.don li:hover{
+    background-color: blue;
+}
+
+#d:hover .don{
+    display: block;
+}
+#banner{
+position: absolute;
+top: 20%;
+left: 0%;
+z-index: -1;
+}
+.mar{
+    width: 1190px;
+   height: 15px;
+     position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 650px;
+    background-color: blue;
+padding: 7px;
+margin: 0px auto;
+z-index: -1;
+}
+.theory{
+    background-color:#F5F5F5;
+    width: 100%;
+    height: 1000px;
+
+    position: absolute;
+    top: 680px;
+    margin-top:12px ; 
+    z-index: -1;
+}
+.introduction{
+    font-size: 300%;
+    font-style:  sans-serif;
+position: relative;
+top: 50px;
+z-index: -1;
+}
+.favi{
+    position: absolute;
+    top: 11%;
+    left:47% ;
+    /* background-color: gold; */
+}
+
+center::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height:2px;
+background-color: green;
+position: absolute;
+top: 13%;
+left: 41.9%;
+/* left: 31; */
+
+}
+center::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height:2px;
+background-color: green;
+position: absolute;
+top: 13%;
+left: 51.9%;
+
+}
+
+.theo{
+
+height: 45%;
+ /* background-color: greenyellow; */
+padding: 10% 15% 0% 15%;
+margin: 5px;
+}
+.text{
+
+    text-align: justify;
+}
+
+.pics{
+
+    background-color: blue;
+    height: 40%;
+    padding-bottom: 0%;
+}
+.icons{
+position: relative;
+top: 20%;
+height: 50px;
+width: 50px;
+}
+#food{
+
+    position: relative;
+    left: 12%;
+}
+#family{
+
+    position: relative;
+    left: 30%;
+}
+
+#medical{
+
+    position: relative;
+    left: 48%;
+}
+
+#education{
+
+    position: relative;
+    left: 65%;
+}
+.green{
+
+position: absolute;
+top: 82%;
+left: 8%;
+font-size: 300%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.blue{
+
+    position: absolute;
+    top: 82%;
+    left: 33%;
+    font-size: 300%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+
+    .pink{
+
+        position: absolute;
+        top: 82%;
+        left: 55%;
+        font-size: 300%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+        }
+
+.yellow{
+
+     position: absolute;
+ top: 82%;
+left: 76%;
+font-size: 300%;
+font-family: Georgia, 'Times New Roman', Times, serif; }
+    
+    .dastar{
+
+            position: absolute;
+            top: 91.2%;
+            left: 2%;
+            /* font-size: 300%; */
+            font-style:  sans-serif;
+            
+    }
+    .m{
+        position: absolute;
+        top: 90.7%;
+        left: 15.2%;
+        font-size: 150%;
+        font-style:  sans-serif;
+
+    }
+
+    .family{
+
+        position: absolute;
+        top: 91%;
+        left: 28%;
+        /* font-size: 300%; */
+        font-style:  sans-serif;
+        
+}
+.n{
+    position: absolute;
+    top: 90.4%;
+    left: 40%;
+    font-size: 150%;
+    font-style:  sans-serif;
+
+}
+
+.medi{
+
+    position: absolute;
+    top: 90.6%;
+    left: 54%;
+    /* font-size: 300%; */
+    font-style:  sans-serif;
+    
+}
+.o{
+position: absolute;
+top: 90%;
+left: 60.4%;
+font-size: 150%;
+font-style:  sans-serif;
+
+}
+.edu{
+
+    position: absolute;
+    top: 90.4%;
+    left: 74%;
+    /* font-size: 300%; */
+    font-style:  sans-serif;
+    
+}
+.pkk{
+position: absolute;
+top: 89.7%;
+left: 82%;
+font-size: 150%;
+font-style:  sans-serif;
+
+}
+
+.pics2{
+
+
+
+    background-color:	#F5F5F5;
+    height: 68%;
+width: 100%;
+}
+
+.shad1{
+    position: absolute;
+    top: 126.4%;
+    left: 5.6%;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+    height: 18.5%;
+    width: 29.5%;
+    background-color:white;
+
+}
+
+.shad2{
+    position: absolute;
+    top: 126.4%;
+    left: 36.9%;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+    height: 18.5%;
+    width: 29.5%;
+    display: inline-block;
+    background-color:white;
+}
+
+.shad3{
+    position: absolute;
+    top: 126.4%;
+    left: 68.5%;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+    height: 18.5%;
+    width: 29.5%;
+    background-color:white;
+    display: inline-block;
+}
+
+
+.shad4{
+    position: absolute;
+    top: 149.4%;
+    left: 5.6%;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+    height: 18.5%;
+    width: 29.5%;
+    background-color:white;
+    /* display: inline-block; */
+}
+
+
+.shad5{
+    position: absolute;
+    top: 149.4%;
+    left: 36.6%;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+    height: 18.5%;
+    width: 29.5%;
+    background-color: white;
+    display: inline-block;
+    border-spacing: 2px;
+}
+
+
+.shad6{
+    position: absolute;
+    top: 149.4%;
+    left: 67.9%;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+    height: 18.5%;
+    width: 29.5%;
+    background-color:white;
+    display: inline-block;
+}
+
+
+.ic1{
+
+position: absolute;
+top: 9%;
+left: 36%;
+
+}
+
+.ic2{
+
+    position: absolute;
+    top: 9%;
+    left: 36%;
+    
+    }
+
+
+    .ic3{
+
+        position: absolute;
+        top: 9%;
+        left: 36%;
+        
+        }
+
+
+
+        .ic4{
+
+            position: absolute;
+            top: 9%;
+            left: 36%;
+            
+            }
+
+            .ic5{
+
+                position: absolute;
+                top: 9%;
+                left: 36%;
+                
+                }
+
+                .ic6{
+
+                    position: absolute;
+                    top: 9%;
+                    left: 36%;
+                    
+                    }
+
+.sa1{
+    position: absolute;
+    top: 70%;
+    left: 18.5%;
+    font-size: 30px;
+    font-style:   sans-serif;
+    /* font-style: oblique; */
+    color: blue;
+}
+
+.sa2{
+    position: absolute;
+    top: 70%;
+    left: 28.5%;
+    font-size: 30px;
+    font-style:   sans-serif;
+    /* font-style: oblique; */
+    color: blue;
+}
+
+
+.sa3{
+    position: absolute;
+    top: 70%;
+    left: 28.5%;
+    font-size: 30px;
+    font-style:   sans-serif;
+    /* font-style: oblique; */
+    color: blue;
+}
+
+
+
+.sa4{
+    position: absolute;
+    top: 70%;
+    left: 18.5%;
+    font-size: 30px;
+    font-style:   sans-serif;
+    /* font-style: oblique; */
+    color: blue;
+}
+
+
+
+.sa5{
+    position: absolute;
+    top: 70%;
+    left: 28.5%;
+    font-size: 30px;
+    font-style:   sans-serif;
+    /* font-style: oblique; */
+    color: blue;
+}
+
+
+.sa6{
+    position: absolute;
+    top: 70%;
+    left: 28.5%;
+    font-size: 30px;
+    font-style:   sans-serif;
+    /* font-style: oblique; */
+    color: blue;
+}
+
+
+
+.introduction1{
+    font-size: 300%;
+    font-style:  sans-serif;
+position: relative;
+top: 50px;
+   /* text-size-adjust: 30px; */
+}
+
+
+ q::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height:2px;
+background-color: green;
+position: absolute;
+top: 122%;
+left: 41.5%;
+
+}
+
+q::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height:2px;
+background-color: green;
+position: absolute;
+top: 122%;
+left: 50.5%;
+
+}
+
+.favi1{
+    position: absolute;
+    top: 119%;
+    left:46% ;
+    
+}
+
+.mission{
+
+    background-color:white;
+    height: 82%;
+width: 100%;
+}
+
+.pro{
+
+    font-size: 180%;
+    font-style:  sans-serif;
+position: relative;
+top: 50px;
+left: 5%;
+   /* text-size-adjust: 30px; */
+color: blue;
+}
+b.pro::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height:2px;
+background-color: green;
+position: absolute;
+top: 115%;
+left: 0%;
+/* left: 31; */
+
+}
+
+.tas1{
+    position: absolute;
+    top: 188%;
+    left: 5%;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+    height: 8.5%;
+    width: 29.5%;
+    background-color:	#F5F5F5;
+}
+
+
+.tas2{
+    position: absolute;
+    top: 188%;
+    left: 37%;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+    height: 8.5%;
+    width: 29.5%;
+    background-color:	#F5F5F5;
+}
+
+.tas3{
+    position: absolute;
+    top: 200%;
+    left: 5%;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+    height: 8.5%;
+    width: 29.5%;
+    background-color:	#F5F5F5;;
+}
+
+
+.tas4{
+    position: absolute;
+    top: 200%;
+    left: 37%;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+    height: 8.5%;
+    width: 29.5%;
+    background-color:	#F5F5F5;;
+}
+.port1{
+
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.port2{
+
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.port3{
+
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.port4{
+
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.wrt1{
+    position: absolute;
+    top: 25px;
+    left: 28.5%;
+    font-size: 20px;
+    font-style:   sans-serif;
+    /* font-style: oblique; */
+    color: blue;
+}
+
+.wrt2{
+    position: absolute;
+    top: 25px;
+    left: 28.5%;
+    font-size: 20px;
+    font-style:   sans-serif;
+    /* font-style: oblique; */
+    color: blue;
+}
+
+.wrt3{
+    position: absolute;
+    top: 25px;
+    left: 28.5%;
+    font-size: 20px;
+    font-style:   sans-serif;
+    /* font-style: oblique; */
+    color: blue;
+}
+
+
+.wrt4{
+    position: absolute;
+    top: 25px;
+    left: 28.5%;
+    font-size: 20px;
+    font-style:   sans-serif;
+    /* font-style: oblique; */
+    color: blue;
+}
+
+b.events::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height:2px;
+background-color: green;
+position: absolute;
+top: 120%;
+left: 4%;
+/* left: 31; */
+
+}
+
+.events{
+    font-size: 180%;
+    font-style:  sans-serif;
+position: relative;
+top: 50px;
+left: 380px;
+color: blue;
+}
+
+.scrolling{
+
+    position: absolute;
+    top: 188%;
+    left: 70%;
+    /* box-shadow: 5px 5px 5px 5px gainsboro; */
+    height: 25.5%;
+    width: 20.5%;
+ padding: 0px 30px 0px 10px; 
+
+  margin: 0px auto;
+ /* z-index: -1; */
+ overflow: hidden;
+
+ background-color: white;
+}
+
+.bol{
+    color: teal;
+}
+.gr{
+ color:	#696969;
+  font-size: 15px;
+}
+
+.introduction2{
+    font-size: 300%;
+    font-style:  sans-serif;
+position: relative;
+top: 350px;
+   /* text-size-adjust: 30px; */
+}
+
+.favi3{
+    position: absolute;
+    top: 2200px;
+    left:46% ;
+    
+}
+
+center.seclast::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height:2px;
+background-color: green;
+position: absolute;
+top: 2240px;
+left: 41.5%;
+
+}
+
+center.seclast::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height:2px;
+background-color: green;
+position: absolute;
+top: 2240px;
+left: 50.5%;
+
+}
+
+.photo1{
+    position: absolute;
+    top: 227%;
+    left: 7.4%;
+    /* box-shadow: 5px 5px 5px 5px gainsboro; */
+    height: 13.5%;
+    width: 16.5%;
+    background-color:white;
+
+
+}
+.photo2{
+    position: absolute;
+    top: 227%;
+    left: 24.1%;
+    /* box-shadow: 5px 5px 5px 5px gainsboro; */
+    height: 13.5%;
+    width: 16.5%;
+    background-color:white;
+
+
+}
+
+.photo3{
+    position: absolute;
+    top: 227%;
+    left: 40.7%;
+    /* box-shadow: 5px 5px 5px 5px gainsboro; */
+    height: 13.5%;
+    width: 16.5%;
+    background-color:white;
+
+
+}
+
+.photo4{
+    position: absolute;
+    top: 227%;
+    left: 57.4%;
+    /* box-shadow: 5px 5px 5px 5px gainsboro; */
+    height: 13.5%;
+    width: 16.5%;
+    background-color:white;
+
+
+}
+
+.photo5{
+    position: absolute;
+    top: 227%;
+    left:74.1%;
+    /* box-shadow: 5px 5px 5px 5px gainsboro; */
+    height: 13.5%;
+    width: 16.5%;
+    background-color:white;
+}
+
+.footer{
+
+        background-color:	#585858;
+        height: 45%;
+    width: 100%;
+
+
+}
+
+.colm1, .colm2, .colm3{
+    width: 384px;
+    height: 300px;
+    float: left;
+    margin: 22px;
+color: white;
+padding: 30px 0px 10px 0px;
+
+/* background-color: 	#585858;} */
+}
+
+.telephone{
+
+display: inline;
+/* padding: 10px; */
+/* line-height: 20%; */
+
+}
+.user{
+
+    font-size: 25px;
+}
+b.user::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height:2px;
+background-color: green;
+position: absolute;
+top: 266%;
+left: 45%;
+/* left: 31; */
+
+}
+
+.cont{
+    font-size: 25px;
+
+}
+
+
+
+/* footer social media link */
+
+
+.facebook1{
+
+    /* background-color: teal; */
+    width: 7px;
+    height: 7px;
+    padding: 5px 10px 13px 20px;
+position:absolute;
+/* left: 50px; */
+/* top: 7px; */
+
+left: 75%;
+
+top:266.7%;
+}
+b{
+    color: white;
+}
+
+.twitter1{
+   /* background-color: tomato; */
+    width: 7px;
+    height: 7px;
+    padding: 5px 10px 13px 8px;
+    /* margin: 10px 10px 10px 50px; */
+    margin: 15px;
+position:absolute;
+/* left: 70px; */
+/* left: 100px;
+top: 0%;  */
+left: 78%;
+
+top:265.9%;
+}
+#tweet{
+    position: absolute;
+    left: 5px;
+    top: 0px;
+    
+}
+.instragram1{
+
+    width: 7px;
+    height: 7px;
+    padding: 5px 15px 13px 8px;
+position:absolute;
+/* left: 160px;
+top: 8.5px;  */
+/* background-color: yellow; */
+left: 82%;
+
+top:266.7%;
+
+}
+#ins{
+    position: absolute;
+    left: 10px;
+}
+
+.youtube1{
+
+
+        width: 7px;
+        height: 7px;
+        padding: 5px 10px 13px 15px;
+        margin:2px ;
+    position:absolute;
+    /* left: 208px;
+    top: 8px;  */
+    /* background-color: turquoise; */
+    left: 85%;
+
+top:266.5%;
+    }
+    #you{
+        position: absolute;
+        left: 10px;
+    }
+
+.copy{
+
+position: absolute;
+top: 299%;
+width: 100%;
+height: 5%;
+background-color: blue;
+
+}
+
+.Copyright{
+
+
+    font-size: 12px;
+    padding:  20px 0px 10px 30px;
+    color: white;
+}
+
+.top{
+
+/* position: absolute; */
+    /* position: fixed; */
+
+    position: absolute;
+    z-index: 1;
+    top: 290%;
+  
+    left: 95%;
+    /* bottom: 5%; */
+}
+
+
+
+
+
+
